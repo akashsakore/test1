@@ -6,7 +6,7 @@ pipeline {
     pollSCM('')
   }
   stages {
-    stage('hello world') {
+    stage('checkout scm') {
       steps {
         echo 'hellow-world'
       }
