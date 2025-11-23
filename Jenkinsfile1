@@ -1,0 +1,12 @@
+pipeline {
+  agent {
+    label 'jenkins-node-1'
+  }
+  stages {
+    stage('hello world') {
+      steps {
+        echo 'hellow-world'
+      }
+    }
+  }
+}
