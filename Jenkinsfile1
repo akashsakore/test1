@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('checkout scm') {
       steps {
-        echo 'hellow-world'
+        echo 'hellow-world.'
       }
     }
   }
