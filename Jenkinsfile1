@@ -2,6 +2,9 @@ pipeline {
   agent {
     label 'jenkins-node-1'
   }
+  triggerS {
+    pollSCM('')
+  }
   stages {
     stage('hello world') {
       steps {
